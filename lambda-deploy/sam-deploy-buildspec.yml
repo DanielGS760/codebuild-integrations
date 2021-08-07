@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    build_version: "0.1",
+    build_version: "0.1"
     BucketZips: "lambdas-zips-us-east-1-dgs"
 
 phases:
