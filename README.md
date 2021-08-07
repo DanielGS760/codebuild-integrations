@@ -10,7 +10,7 @@ aws cloudformation deploy --template-file codebuild-template.yml \
     Env=dev \
     BuildSpec=lambda-deploy/sam-upload-buildspec.yml \
     CodeBuildType=lambda-upload \
-    Location=https://github.com/poltorres7/codebuild-integrations \
-    SecondaryLocation=https://github.com/poltorres7/lambdas \
+    Location=https://github.com/DanielGS760/codebuild-integrations \
+    SecondaryLocation=https://github.com/DanielGS760/lambdas \
     --tags Env=Dev Course=DevOps \
     --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM
